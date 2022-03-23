@@ -37,7 +37,7 @@ header {
 }
 
 #logo {
-    background-image: url("images/naiLogo.png");
+    background-image: url("../images/naiLogo.png");
     background-repeat: no-repeat;
     background-size: contain;
     height: 41px;
@@ -258,7 +258,7 @@ footer {
 }
 
 #logo2 { 
-    background-image: url("images/naiLogo.png");
+    background-image: url("../images/naiLogo.png");
     background-repeat: no-repeat;
     background-size: contain;
     height: 41px;
