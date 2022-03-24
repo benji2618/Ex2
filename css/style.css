@@ -129,11 +129,11 @@ nav a {
 #b1 {
     margin-left: 25px;
     margin-top: 23px;
-    top: 1002px;
-    background: #458FF6;
-    border-radius: 55px;
     height: 56px;
-    width: 200px;    
+    width: 200px;
+    border-width: 0ch;
+    background-color: #458FF6; 
+    border-radius: 55px; 
 }
 
 #b1 span {
@@ -141,9 +141,9 @@ nav a {
     font-size: 18px;
     line-height: 60px;
     color: #FFFFFF;
-    height: 60px;
+    height: 56px;
     width: 119px;
-}
+} 
 
 #ourServices {
     font-weight: 700;
