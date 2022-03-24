@@ -14,7 +14,9 @@ div {
 }
 
 body {
-    font-family: 'mulish', sans-serif;
+    width: 1600px;
+    height: 200px;
+    font-family: 'Mulish', sans-serif;
     background-color: #FFFFFF;
 }
 
@@ -28,7 +30,8 @@ a {
 
 a:hover { 
     opacity: 1;
-    font-weight: bold;
+    font-weight: 700;
+    color:#000000;
 }
 
 header {
@@ -36,32 +39,39 @@ header {
     margin-top: 31;
 }
 
-#logo {
-    background-image: url("../images/naiLogo.png");
+.logo {
     background-repeat: no-repeat;
     background-size: contain;
     height: 41px;
     margin-left: 25px;
     margin-top: 25px;
-    display: block;
 }
 
-#logo h3 {
+.logo img { 
+    width: 41px;
+    height: 41px;
+}
+
+.logo span {
     font-weight: 700;
     font-size: 24px;
     line-height: 30px;
     color: #233348;
-    margin-left: 53px;
-    margin-top: 31px;
+    margin-left: 12px;
+    /* margin-top: 31px; */
 }
 
+
+
 nav {
-    width: 100%;
     margin-top: 30px;
     margin-left: 25px;
+    height: 23px;
+
 }
 
 nav a {
+    height: 23px;
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
@@ -69,6 +79,7 @@ nav a {
     margin-right: 40px;
     opacity: 0.5;
 }
+
 
 #Home {
     font-weight: 700;
@@ -79,7 +90,7 @@ nav a {
 }
 
 #headLine {
-    font-weight: 700, bold;
+    font-weight: 700;
     font-size: 42px;
     line-height: 53px;
     color: #1F1534;
@@ -93,7 +104,7 @@ nav a {
 }
 
 #virtual {
-    font-weight: 700, bold;
+    font-weight: 700;
     font-size: 36px;
     line-height: 56px;
     margin-top: 63px;
@@ -240,6 +251,7 @@ footer {
 #nav2 { 
     margin-left: 25px;
     padding-top: 50px;
+    margin-bottom: 68px;
 }
 
 #nav2 a { 
@@ -313,7 +325,7 @@ footer {
 }
 
 #h2section2 { 
-    font-weight: 700, bold;
+    font-weight: 700;
     font-size: 36px;
     line-height: 48px;
     color: #FFFFFF;
@@ -487,3 +499,18 @@ footer {
 
 
 
+h1{ 
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 53px;
+}
+
+footer a.logo{ 
+    /* height: 41px; */
+    margin-top: 68px;
+}
+
+
+footer a.logo span{
+    color: #FFFFFF;
+}
